@@ -5,7 +5,7 @@ public class Main{
 		University myuni = new University("Minhaj Univeristy" , uniaddress);
 		Lecturer teacher = new Lecturer("Hasham Haider" , "Male" , 42 , "E111" , "Nl100" , "Professor" , 80000);
 		Student student1 = new Student("Mudassir" , "Male" , 22 , "001" , false);
-		Student student2 = new Student("Kathrina" , "Female" ,22 , "015" , false);
+		Student student2 = new Student("Hamid" , "Male" ,22 , "003" , false);
 		Student[] studentlist = {student1 , student2};
 		Module javamodule = new Module("Java programming" , "Room no 6402" , "Tuesday" , "10.30 Am" , teacher);
 		Course[] courselist = new Course[1];
