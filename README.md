@@ -56,7 +56,7 @@ Course: Mobile App Development
 Lecturer: Hasham Haider  
 Students:  
 - Mudassir (001)
--HAamid (003)
+-Hamid (003)
 Module: Java Programming  
 Day: Tuesday, Time: 10.30 AM  
 ```
