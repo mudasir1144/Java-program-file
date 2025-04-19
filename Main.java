@@ -2,12 +2,21 @@ public class Main{
 	public static void main(String[] args){
 		Address uniaddress = new Address(1, "Lahore", "Township", "54000", "Pakistan");
 		
+<<<<<<< HEAD
 		University myuni = new University("Minhaj Univeristy", uniaddress);
 		Lecturer teacher = new Lecturer("Hasham Haider", "Male", 42, "E111", "Nl100", "Professor", 80000);
 		Student student1 = new Student("Mudassir", "Male", 22, "001", false);
 		Student student2 = new Student("Hamid", "Male", 22, "003", false);
 		Student[] studentlist = {student1, student2};
 		Module javamodule = new Module("Java programming", "Room no 6402", "Tuesday", "10.30 Am", teacher);
+=======
+		University myuni = new University("Minhaj Univeristy" , uniaddress);
+		Lecturer teacher = new Lecturer("Hasham Haider" , "Male" , 42 , "E111" , "Nl100" , "Professor" , 80000);
+		Student student1 = new Student("Mudassir" , "Male" , 22 , "001" , false);
+		Student student2 = new Student("Hamid" , "Male" ,22 , "003" , false);
+		Student[] studentlist = {student1 , student2};
+		Module javamodule = new Module("Java programming" , "Room no 6402" , "Tuesday" , "10.30 Am" , teacher);
+>>>>>>> 7eadd826dd395f41a98db38f8dbb27c2c6521ae3
 		Course[] courselist = new Course[1];
 		Course CScourse = new Course("Mobile app development", "Computer Science", 4, teacher, studentlist, courselist);
 		courselist[0] = CScourse;
@@ -23,4 +32,9 @@ public class Main{
 		System.out.println("Module: " + javamodule.getmodulename());
 		System.out.println("Day: " + javamodule.getdayOfWeek() + ", Time: " + javamodule.gettime());
 	}
+<<<<<<< HEAD
 }
+=======
+} 
+}					   
+>>>>>>> 7eadd826dd395f41a98db38f8dbb27c2c6521ae3
