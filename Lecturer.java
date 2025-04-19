@@ -1,38 +1,38 @@
 public class Lecturer extends Person{
-	private String employeeNumber;
-	private String Nlnumber;
-	private String jobTitle;
-	private double salary;
+private String employeeNumber;
+private String Nlnumber;
+private String jobTitle;
+private double salary;
 
-public Lecturer(String name , String gender , int age , String employeeNumber , String Nlnumber , String jobTitle , double salary){
-	super(name , age , gender);
-	this.employeeNumber = employeeNumber;
-	this.Nlnumber = Nlnumber;
-	this.jobTitle = jobTitle;
-	this.salary = salary;
+public Lecturer(String pName, String pGender, int pAge, String empNum, String nl, String job, double sal){
+super(pName, pAge, pGender);
+employeeNumber = empNum;
+Nlnumber = nl;
+jobTitle = job;
+salary = sal;
 }
 public String getemployeeNumber(){
-	return employeeNumber;
+return employeeNumber;
 }
-public void setemployeeNumber(String employeeNumber){
-	this.employeeNumber = employeeNumber;
+public void setemployeeNumber(String empNum){
+employeeNumber = empNum;
 }
 public String getNlnumber(){
-	return Nlnumber;
+return Nlnumber;
 }
-public void setNlnumber(String Nlnumber){
-	this.Nlnumber = Nlnumber;
+public void setNlnumber(String nl){
+Nlnumber = nl;
 }
 public String getjobTitle(){
-	return jobTitle;
+return jobTitle;
 }
-public void setjobTitle(String jobTitle){
-	this.jobTitle = jobTitle;
+public void setjobTitle(String job){
+jobTitle = job;
 }
 public double getsalary(){
-	return salary;
+return salary;
 }
-public void setsalary(double salary){
-	this.salary = salary;
+public void setsalary(double sal){
+salary = sal;
 }
 }

@@ -1,21 +1,20 @@
 public class University{
-	private String uniname;
-	private Address address;
-
-public University(String uniname , Address address){
-	this.uniname = uniname;
-	this.address = address;
+private String uniname;
+private Address address;
+public University(String uniName, Address addr){
+uniname = uniName;
+address = addr;
 }
 public String getuniname(){
-	return uniname;
+return uniname;
 }
-public void setuniname(String uniname){
-	this.uniname = uniname;
+public void setuniname(String uniName){
+uniname = uniName;
 }
 public Address getaddress(){
-	return address;
+return address;
 }
-public void setaddress(Address address){
-	this.address=address;
+public void setaddress(Address addr){
+address = addr;
 }
 }

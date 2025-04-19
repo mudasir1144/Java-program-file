@@ -1,45 +1,45 @@
-public class Module {
-	private String modulename;
-	private String lectureVenue;
-	private String dayOfWeek;
-	private String time;
-	private Lecturer lecturer;
+public class Module{
+private String modulename;
+private String lectureVenue;
+private String dayOfWeek;
+private String time;
+private Lecturer lecturer;
 
-public Module(String modulename , String lectureVenue , String dayOfWeek , String time , Lecturer lecturer){
-	this.modulename = modulename;
-	this.lectureVenue = lectureVenue;
-	this.dayOfWeek = dayOfWeek;
-	this.time = time;
-	this.lecturer =  lecturer;
+public Module(String mName, String venue, String day, String mTime, Lecturer lect){
+modulename = mName;
+lectureVenue = venue;
+dayOfWeek = day;
+time = mTime;
+lecturer = lect;
 }
 public String getmodulename(){
-	return modulename;
+return modulename;
 }
-public void setmodulename(String modulename){
-	this.modulename = modulename;
+public void setmodulename(String mName){
+modulename = mName;
 }
 public String getlectureVenue(){
-	return lectureVenue;
+return lectureVenue;
 }
-public void setlectureVenue(String lectureVenue){
-	this.lectureVenue = lectureVenue;
+public void setlectureVenue(String venue){
+lectureVenue = venue;
 }
 public String getdayOfWeek(){
-	return dayOfWeek;
+return dayOfWeek;
 }
-public void setdayOfWeek(String dayOfWeek){
-	this.dayOfWeek = dayOfWeek;
+public void setdayOfWeek(String day){
+dayOfWeek = day;
 }
 public String gettime(){
-	return time;
+return time;
 }
-public void settime(String time){
-	this.time = time;
+public void settime(String mTime){
+time = mTime;
 }
 public Lecturer getlecturer(){
-	return lecturer;
+return lecturer;
 }
-public void setlecturer(Lecturer lecturer){
-	this.lecturer = lecturer;
+public void setlecturer(Lecturer lect){
+lecturer = lect;
 }
 }

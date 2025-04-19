@@ -1,37 +1,36 @@
 public class Person{
-	private String name;
-	private int age;
-	private String gender;
-	private Address address;
+private String name;
+private int age;
+private String gender;
+private Address address;
  
-public Person(String name , int age , String gender){
-	this.name = name;
-	this.age = age;
-	this.gender = gender;
-	this.address = address;
+public Person(String pName, int pAge, String pGender){
+name = pName;
+age = pAge;
+gender = pGender;
 }
 public String getname(){
-	return name;
+return name;
 }
-public void setname(String name){
-	this.name = name;
+public void setname(String pName){
+name = pName;
 }
 public int getage(){
-	return age;
+return age;
 }
-public void setage(int age){
-	this.age = age;
+public void setage(int pAge){
+age = pAge;
 }
 public String getgender(){
-	return gender;
+return gender;
 }
-public void setgender(String gender){
-	this.gender = gender;
+public void setgender(String pGender){
+gender = pGender;
 }
 public Address getaddress(){
-	return address;
+return address;
 }
-public void setaddress(Address address){	
-	this.address = address ;
+public void setaddress(Address addr){	
+address = addr;
 }
 }

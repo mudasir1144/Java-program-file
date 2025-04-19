@@ -1,53 +1,53 @@
 public class Course{
-	private String coursename;
-	private String department;
-	private int durationInYear;
-	private Lecturer lecturer;
-	private Student[] students;
-	private Course[] course;
+private String coursename;
+private String department;
+private int durationInYear;
+private Lecturer lecturer;
+private Student[] students;
+private Course[] course;
 
-public Course(String coursename , String department , int durationInYear , Lecturer lecturer , Student[] students , Course[] course){
-	this.coursename = coursename;
-	this.lecturer = lecturer;
-	this.department = department;
-	this.durationInYear = durationInYear;
-	this.students = students;
-	this.course = course;
+public Course(String cName, String dept, int duration, Lecturer lect, Student[] studs, Course[] courses){
+coursename = cName;
+department = dept;
+durationInYear = duration;
+lecturer = lect;
+students = studs;
+course = courses;
 }
 public String getcoursename(){
-	return coursename;
+return coursename;
 }
-public void setcoursename(String coursename){
-	this.coursename = coursename;
+public void setcoursename(String cName){
+coursename = cName;
 }
 public String getdepartment(){
-	return department;
+return department;
 }
-public void setdepartment(String department){
-	this.department = department;
+public void setdepartment(String dept){
+department = dept;
 }
 public int getdurationInYear(){
-	return durationInYear;
+return durationInYear;
 }
-public void setdurationInYear(int dirationInYear){
-	this.durationInYear = durationInYear;
+public void setdurationInYear(int duration){
+durationInYear = duration;
 }
 public Lecturer getlecturer(){
-	return lecturer;
+return lecturer;
 }
-public void lecturer(Lecturer lecturer){
-	this.lecturer = lecturer;
+public void lecturer(Lecturer lect){
+lecturer = lect;
 }
 public Student[] getstudents(){
-	return students;
+return students;
 }
-public void setstudent(Student[] students){
-	this.students = students;
+public void setstudent(Student[] studs){
+students = studs;
 }
 public Course[] getcourse(){
-	return course;
+return course;
 }
-public void setcourse(Course[] course){
-	this.course = course;
+public void setcourse(Course[] courses){
+course = courses;
 }
 }
